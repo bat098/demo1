@@ -1,0 +1,12 @@
+# Ignoruj pliki buildu
+dist
+build
+coverage
+
+# Ignoruj zależności
+node_modules
+
+# Ignoruj pliki konfiguracyjne które nie powinny być formatowane
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
